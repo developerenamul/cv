@@ -68,5 +68,39 @@ nav ul li {
 /* ========== header section end ========= */
 
 /* ===== MAIN SECTION START ===== */
+/* development section */
+.development {
+  padding: 0 90px;
+  text-align: center;
+}
+.layer-1 {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 30px;
+  padding: 30px 0;
+}
+.text-part p,
+.development p {
+  padding: 15px 0;
+}
 
+.layer-2 {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  text-align: left;
+}
+
+.layer-3 {
+  display: flex;
+  gap: 30px;
+  text-align: left;
+  align-items: center;
+}
+.layer-1,
+.layer-2,
+.layer-3 {
+  padding: 0 40px;
+}
 /* ===== MAIN SECTION END ===== */
