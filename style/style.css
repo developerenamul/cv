@@ -144,3 +144,33 @@ nav ul li {
   justify-content: space-around;
 }
 /* ===== MAIN SECTION END ===== */
+
+/* ===== footer start ======= */
+.contact-form {
+  padding: 50px 40px;
+  background: url(../assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-form p {
+  padding: 15px 0;
+}
+
+.contact-form input,
+button {
+  padding: 10px 15px;
+}
+.contact-form button {
+  cursor: pointer;
+}
+
+.social-contact {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+/* ===== footer end ======= */
