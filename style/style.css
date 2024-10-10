@@ -103,4 +103,44 @@ nav ul li {
 .layer-3 {
   padding: 0 40px;
 }
+
+.inspiration {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inspiration p {
+  width: 750px;
+  padding: 15px 0;
+}
+
+.target {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  gap: 20px;
+}
+.target > p {
+  width: 550px;
+}
+.html,
+.css,
+.js {
+  padding: 25px;
+  width: 350px;
+  margin: 10px;
+}
+.css {
+  background: rgba(0, 76, 232, 0.05);
+}
+.html,
+.js {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.target-content {
+  display: flex;
+  justify-content: space-around;
+}
 /* ===== MAIN SECTION END ===== */
